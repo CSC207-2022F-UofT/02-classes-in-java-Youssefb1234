@@ -3,10 +3,8 @@ import java.util.Arrays;
 /**
  * This file contains a few exercises to familiarize you with specific
  * class features in Java.
- *
  * You should read this file from top-to-bottom. Any tasks you are to complete
  * are labelled with TODO
- *
  * For your convenience, we have also included references to the
  * relevant readings for each task.
  */
@@ -16,11 +14,9 @@ public class Silly implements Comparable<Silly>{
      * 1. Java has variables known as "static" variables.
      * These are variables that exist in every instance of a class,
      * and which have the same value across all instances.
-     *
      * Below we have created a static variable (signified by the keyword
      * static) named my_static. The countStatic() method makes use of this
      * static variable.
-     *
      * (Relevant reading: 2.1. Static variables)
      */
     public static int my_static = 0;
